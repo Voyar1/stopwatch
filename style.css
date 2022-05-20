@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: rgba(97, 142, 195, 0.762);
+  font-size: 62.5%;
+}
+
+.container {
+  font-size: 4rem;
+  background: white;
+  position: absolute;
+  min-width: 400px;
+  width: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 1rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.buttons button {
+  padding: 0.2rem 0.4rem;
+  font-size: 1.5rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border: none;
+  color: white;
+  width: 7rem;
+}
+
+.pause {
+  background: rgba(117, 117, 193, 0.881);
+}
+.pause:hover {
+  background: rgba(97, 97, 163, 0.881);
+}
+
+.start {
+  background: rgb(101, 173, 101);
+}
+.start:hover {
+  background: rgb(89, 150, 89);
+}
+
+.reset {
+  background: red;
+}
+.reset:hover {
+  background: rgb(141, 50, 50);
+}
